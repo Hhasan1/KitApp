@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/header :: head}"></head>
+<body>
+    <nav th:replace="~{fragments/header :: navbar}"></nav>
+
+    <div class="hero-section bg-primary text-white py-5">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3">Hizmetlerimiz</h1>
+            <p class="lead mb-4">
+                Okuyucularımıza ve toplum üyelerimize sunduğumuz geniş hizmet yelpazesini keşfedin.
+            </p>
+            <img src="/images/kütüp.jpg" alt="Kütüphane Hizmetlerimiz" class="img-fluid rounded shadow" style="max-width: 600px;">
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm text-center">
+                    <div class="card-body">
+                        <i class="fas fa-book fa-3x mb-3 text-primary"></i>
+                        <h5 class="card-title">Ödünç Verme</h5>
+                        <p class="card-text">En sevdiğiniz kitapları çevrimiçi olarak ayırtın ve istediğiniz zaman teslim alın.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm text-center">
+                    <div class="card-body">
+                        <i class="fas fa-chalkboard-teacher fa-3x mb-3 text-primary"></i>
+                        <h5 class="card-title">Etkinlikler ve Atölyeler</h5>
+                        <p class="card-text">Her yaştan insana yönelik edebiyat etkinliklerimize, atölyelerimize ve topluluk programlarımıza katılın.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm text-center">
+                    <div class="card-body">
+                        <i class="fas fa-laptop fa-3x mb-3 text-primary"></i>
+                        <h5 class="card-title">Çevrimiçi Kaynaklar</h5>
+                        <p class="card-text">E-kitaplara, makalelere ve eğitim materyallerine istediğiniz zaman, istediğiniz yerden çevrimiçi erişin.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer th:replace="~{fragments/footer :: footer}"></footer>
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{fragments/header :: head}"></head>
+<body>
+    <nav th:replace="~{fragments/header :: navbar}"></nav>
+
+    <div class="hero-section bg-primary text-white py-5">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-3">Hakkımızda</h1>
+            <p class="lead mb-4">
+            "Amacımız, okumayı herkes için erişilebilir kılmaktır. Binlerce kitabı keşfedin, etkinliklere katılın ve canlı topluluğumuza katılın."
+            </p>
+            <img src="/images/about-library.jpg" alt="About Library" class="img-fluid rounded shadow" style="max-width: 600px;">
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Hikayemiz</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <p>
+                Kütüphanemiz, bilgiye erişimi kolaylaştırmak ve okuma alışkanlığını yaygınlaştırmak amacıyla kapılarını açmıştır. 
+                Zengin kitap koleksiyonumuzla, her yaştan ve ilgi alanından okuyucumuza hitap etmeyi hedefliyoruz. Romanlardan 
+                akademik yayınlara, çocuk kitaplarından dergilere kadar geniş bir yelpazede kaynak sunmaktayız. 
+                </p>
+                <p>
+                Kütüphanemiz, sadece bir kitap deposu olmanın ötesinde, sessiz ve huzurlu bir çalışma ortamı sunan, bilgi ve kültürün buluşma 
+                noktası olan bir yaşam alanıdır. Düzenlediğimiz etkinlikler, söyleşiler ve atölye çalışmalarıyla, bilgiye erişimi 
+                daha etkileşimli ve keyifli hale getirmeyi amaçlıyoruz. Sizleri de kütüphanemizin sıcak ortamında yeni dünyalar 
+                keşfetmeye davet ediyoruz.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <img src="/images/images.jpeg" alt="Çoçuk ve Kitap" class="img-fluid rounded shadow" height="400px" width="400px" >
+            </div>
+        </div>
+    </div>
+
+    <footer th:replace="~{fragments/footer :: footer}"></footer>
+</body>
+</html>
+

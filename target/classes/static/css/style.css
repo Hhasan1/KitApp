@@ -1,0 +1,113 @@
+/* Genel Body ve Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #E7D4B5;
+    color: #FFFFFF; /* Yazılar beyaz */
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 1.5rem;
+    background-color: #E7D4B5;
+    color: #FFFFFF;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    background-color: #E7D4B5;
+    color: #FFFFFF;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #B6C7AA; /* Hover ile kontrast için */
+}
+
+/* Navbar genel arka plan */
+.navbar {
+    background-color: #E7D4B5 !important;
+}
+
+
+/* Hero Section */
+.hero-section {
+    background: url('/images/kütüp.jpg') no-repeat center center;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+.hero-section p.lead {
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+
+/* Cards */
+.card {
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.4); /* Hafif saydam arka plan */
+    color: #FFFFFF;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #B6C7AA;
+    border-color: #B6C7AA;
+    color: #FFFFFF;
+}
+
+.btn-primary:hover {
+    background-color: #9CAF8F;
+    border-color: #9CAF8F;
+}
+
+.btn-outline-primary {
+    border-color: #B6C7AA;
+    color: #FFFFFF;
+}
+
+.btn-outline-primary:hover {
+    background-color: #B6C7AA;
+    color: #FFFFFF;
+}
+
+/* Footer */
+footer {
+    background-color: #E7D4B5;
+    padding: 2rem 0;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #B6C7AA;
+}
+
+.card-body form input {
+    height: 45px;
+    background-color: #B6C7AA;
+    color: #000000; /* Input içinde yazılar okunaklı olsun */
+    border: 1px solid #B6C7AA;
+}
+
+.card-body form button {
+    min-width: 200px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+}
+
